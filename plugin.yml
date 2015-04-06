@@ -1,0 +1,10 @@
+name: Fallout
+main: iCGameDev.MC.Fallout.Main.Main
+version: 0.01
+commands: 
+  temp: 
+    description: Temporary commands - will be removed
+    usage: Just use it
+  tpa: 
+    description: Request to teleport to a player!
+    usage: /tpa [player]
