@@ -1,16 +1,16 @@
-package iCGameDev.MC.Fallout.Weapons;
+package iCGameDev.MC.Fallout.Armors;
 
 import org.bukkit.inventory.ItemStack;
 
-public class Weapon extends ItemStack{
+public class Armor {
 	
-	public int dmg;
+	public int armor;
 	public int type;
 	public ItemStack is;
 	public String name;
 	
-	public Weapon(String name, ItemStack is, int dmg, int type){
-		this.dmg=dmg;
+	public Armor(String name, ItemStack is, int armor, int type){
+		this.armor=armor;
 		this.type=type;
 		this.is=is;
 		this.name=name;
@@ -20,8 +20,8 @@ public class Weapon extends ItemStack{
 		return name;
 	}
 	
-	public int getDamage(){
-		return dmg;
+	public int getArmor(){
+		return armor;
 	}
 	
 	public int getWeapon(){
